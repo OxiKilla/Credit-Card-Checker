@@ -112,8 +112,8 @@ def main():
     
     if is_valid_credit_card(card_number):
         network = get_card_network(card_number)
-        print(f"\nIl numero della carta è valido.")
-        print(f"Il circuito di pagamento è: {network}")
+        print(f"\n🟢 Credit card is Valid.")
+        print(f"Payment circuit: {network}")
         
         if check_card_active():
             print("\n🟢 Credit card is Valid and ON.")
